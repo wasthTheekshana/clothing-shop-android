@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_2">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:layout_marginTop="449dp"
+        app:srcCompat="@drawable/ic_scree_2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/create"
+        android:layout_width="218dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/createaccount"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        android:transitionName="transition_login"
+        app:icon="@drawable/ic_baseline_arrow_right_alt_24"
+        app:iconGravity="end"
+        app:iconTint="@color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginquickly"
+        android:layout_width="159dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="560dp"
+        android:backgroundTint="@color/loginbtn"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/loginquickly"
+        android:layout_marginStart="223dp"
+        android:textSize="20sp"
+        android:transitionName="transition_login" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="384dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="@string/fashion"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/white"
+        android:textSize="78sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/atitsbest"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="210dp"
+        android:textColor="@color/allitscolor"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>

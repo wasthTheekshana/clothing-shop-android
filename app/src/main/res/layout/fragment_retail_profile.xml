@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationCustomer.retail_profile">
+
+    <TextView
+        android:id="@+id/headline_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My profile"
+        android:textSize="36dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inter_semibold"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <ImageButton
+        android:id="@+id/notification_btn"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="39dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_notification" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="100dp"
+    >
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:srcCompat="@drawable/profile1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="10dp"
+        >
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="18dp"
+            android:layout_height="28dp"
+            android:text="Theekshana Harischandra"/>
+
+        <TextView
+            android:id="@+id/profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="wasathkaltheekshana@gmail.com"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="190dp"
+        android:paddingTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/myOrderlayer"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/order_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/mobile_shopping_32px" />
+            <TextView
+                android:id="@+id/profile_order"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="My Orders"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                app:drawableEndCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+                app:drawableTint="@color/black" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/myInformation"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/info_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/view_details_32px" />
+
+            <TextView
+                android:id="@+id/profile_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="My Information"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                app:drawableEndCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+                app:drawableTint="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/address_my"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/address_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/address_32px" />
+
+            <TextView
+                android:id="@+id/profile_address"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Address Book"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                app:drawableEndCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+                app:drawableTint="@color/black" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/paymentCard"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/info_"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/bank_cards_32px" />
+
+            <TextView
+                android:id="@+id/profile_pay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Payment Mathod"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                app:drawableEndCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+                app:drawableTint="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/gift_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/gift_card_32px" />
+            <TextView
+                android:id="@+id/profile_girtcard"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Gift Card"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                app:drawableEndCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+                app:drawableTint="@color/black" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/help_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/help_32px" />
+            <TextView
+                android:id="@+id/profile_help"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Help &amp; Contact"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                app:drawableEndCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+                app:drawableTint="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/signOutLayout"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/signout_img"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/logout_rounded_left_32px" />
+
+            <TextView
+                android:id="@+id/profile_signout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="Sign out"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                app:drawableEndCompat="@drawable/ic_baseline_keyboard_arrow_right_24"
+                app:drawableTint="@color/black" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

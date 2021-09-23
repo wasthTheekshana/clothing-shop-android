@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payments.SuccessfullOrder">
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/ic_undraw_celebration_0jvk"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your product has been"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/had_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Successfully "
+            android:layout_marginStart="45dp"
+            android:textSize="30sp"
+            android:textColor="@color/indigo"
+            android:fontFamily="@font/poppins_semibold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="placed !"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/lato_regular"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ViewOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/had_2"
+        android:layout_marginStart="106dp"
+        android:text="View Order"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="21sp"
+        android:gravity="center"
+        android:textColor="@color/light_blue"
+        android:drawablePadding="30dp"
+        app:drawableEndCompat="@drawable/ic_baseline_arrow_right_alt_24"
+        app:drawableTint="@color/light_blue" />
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_below="@id/ViewOrders"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/accLog"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Countinue Shopping" />
+
+    <TextView
+        android:id="@+id/pay_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Track Order"
+        android:textColor="@color/accLog"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_below="@id/scan_btn"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="70dp"
+        android:background="@drawable/button_line"
+        />
+</RelativeLayout>

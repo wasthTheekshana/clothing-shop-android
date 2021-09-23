@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+        android:id="@+id/bottom_nav_dashboard"
+        android:title="Home"
+        android:icon="@drawable/bottom_nav_dashboard_icon"
+        app:cnb_backgroundColor = "@color/back2"
+        />
+    <item
+        android:id="@+id/bottom_nav_manage"
+        android:title="Category"
+        android:icon="@drawable/ic_cate"
+        app:cnb_backgroundColor = "@color/back2"
+        />
+    <item
+        android:id="@+id/bottom_nav_cart"
+        android:title="Cart"
+        android:icon="@drawable/ic_icon_awesome_shopping_cart"
+        app:cnb_backgroundColor = "@color/cartclr"
+        />
+    <item
+        android:id="@+id/bottom_nav_wishlist"
+        android:title="Wishlist"
+        android:icon="@drawable/ic_heart"
+        app:cnb_backgroundColor = "@color/back2"
+        />
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/bottom_nav_profile_icon"
+        app:cnb_backgroundColor = "@color/back2"
+        />
+
+</menu>

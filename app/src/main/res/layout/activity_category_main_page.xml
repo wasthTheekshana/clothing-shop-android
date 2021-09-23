@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationCustomer.Category_main_page">
+
+
+    <View
+        android:id="@+id/cateBackground"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/pack_1"
+        />
+
+    <TextView
+        android:id="@+id/cateMainHeadName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shirt Collection"
+        android:textSize="26dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="160dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cate_Rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cateBackground"
+        android:background="@color/blurwhite"
+        tools:listitem="@layout/home_product_list"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

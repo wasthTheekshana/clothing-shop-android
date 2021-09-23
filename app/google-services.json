@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "161919166835",
+    "firebase_url": "https://downtownshop-84d4c-default-rtdb.firebaseio.com",
+    "project_id": "downtownshop-84d4c",
+    "storage_bucket": "downtownshop-84d4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161919166835:android:8b28586b18e45fa9627d06",
+        "android_client_info": {
+          "package_name": "com.theekshana.onlineadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161919166835-lj6r2bq8rp51hd0lh9vucnse0ukgdb72.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theekshana.onlineadminapp",
+            "certificate_hash": "4a48ed53fa920f5474dcc2452ecb67bb1521c620"
+          }
+        },
+        {
+          "client_id": "161919166835-ki2otfa8ac7g65vbb4n4mq6bg6vgbdce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoIaRtM--Rk7dRIioLgxAM5c-c2WKwR-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161919166835-ki2otfa8ac7g65vbb4n4mq6bg6vgbdce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161919166835:android:a21e9e1d0c8bfa80627d06",
+        "android_client_info": {
+          "package_name": "com.theekshana.onlineshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161919166835-ienk37epqag3u3hvaisbm878tql2lngu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theekshana.onlineshop",
+            "certificate_hash": "4a48ed53fa920f5474dcc2452ecb67bb1521c620"
+          }
+        },
+        {
+          "client_id": "161919166835-ki2otfa8ac7g65vbb4n4mq6bg6vgbdce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoIaRtM--Rk7dRIioLgxAM5c-c2WKwR-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161919166835-ki2otfa8ac7g65vbb4n4mq6bg6vgbdce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

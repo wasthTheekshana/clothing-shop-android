@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:paddingBottom="25dp"
+    android:paddingTop="10dp"
+    android:paddingStart="10dp"
+    app:cardElevation="4dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/select_cate_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/setlect_cate_text"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:drawableTint="@color/black"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:paddingStart="8dp"
+        android:paddingEnd="12dp"
+        android:text="T-Shirt"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    tools:context=".LocationCustomer.retail_cart">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/botton_line"
+        >
+
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_new_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Shopping Cart"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:fontFamily="@font/poppins_medium"/>
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/ic_icon_awesome_search" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/checkoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="630dp"
+        android:backgroundTint="@color/accLog"
+        android:text="Payment" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecycleView"
+        android:layout_width="353dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="90dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lato_semibold"
+        android:textSize="20sp"
+        android:layout_marginTop="480dp"/>
+
+    <TextView
+        android:id="@+id/subTotal"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Total"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lato_semibold"
+        android:textSize="20sp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="480dp"/>
+
+
+
+</RelativeLayout>

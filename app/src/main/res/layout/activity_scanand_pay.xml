@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payments.ScanandPay">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan and Pay"
+        android:textColor="@color/black"
+        android:id="@+id/button3"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_below="@id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/animationScan"
+        android:layout_marginTop="20dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="scan_qr_code_success.json"/>
+
+    <Button
+        android:id="@+id/scan_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Start Shopping"
+        android:layout_below="@id/animationScan"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginStart="70dp"
+        android:backgroundTint="@color/accLog"
+        />
+    <TextView
+        android:id="@+id/pay_btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Continue Pay"
+        android:textColor="@color/accLog"
+        android:textSize="14sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_below="@id/scan_btn"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="70dp"
+       android:background="@drawable/button_line"
+        />
+</RelativeLayout>

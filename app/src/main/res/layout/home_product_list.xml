@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="1dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+        <ImageView
+            android:id="@+id/home_prdoct_image"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/image_girl" />
+
+    <TextView
+        android:id="@+id/discount"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="15dp"
+        android:textAlignment="center"
+        android:background="@drawable/discount_line"
+        android:text="10% OFF"
+        android:textStyle="bold"
+        android:textColor="@color/hilightGreen" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="97dp"
+    android:layout_marginTop="160dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/product_head"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:paddingStart="8dp"
+        android:fontFamily="@font/inter_v"
+        android:gravity="fill_vertical"
+        android:text="Girl Clothes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:paddingStart="8dp"
+        android:text="$450" />
+    <TextView
+        android:id="@+id/discountPrice"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:paddingStart="8dp"
+        android:textColor="@color/red"
+        android:text="$450" />
+</LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

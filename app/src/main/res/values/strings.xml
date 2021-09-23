@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">online shop</string>
+    <string name="createaccount">CREATE ACCOUNT</string>
+    <string name="loginquickly">LOGIN QUICKLY</string>
+    <string name="fashion">Fashion</string>
+    <string name="atitsbest">AT ITS BEST</string>
+
+    <string name="create">Create</string>
+    <string name="loginto">Log into</string>
+    <string name="createyourbtn">Create Your account</string>
+    <string name="createyour">Your account</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="pw">Password</string>
+    <string name="contNum">Phone Number</string>
+    <string name="alreadyhave">Already have account ?</string>
+    <string name="remember">Remember me</string>
+    <string name="forgot">Forgot ?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_dashboard">Fragment Dashboard</string>
+    <string name="category">Category</string>
+    <string name="profile">Profile</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="women">Women</string>
+    <string name="men">Men</string>
+    <string name="kid">Kids</string>
+    <string name="innew">New in</string>
+    <string name="clothes">Clothing</string>
+    <string name="shoe">Shoes</string>
+    <string name="acces">Accessories</string>
+    <string name="wishlist">Wishlist</string>
+
+    //otp send
+    <string name="otp_code_text">Co\nde</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="otp_description_text">Enter One Time Password sent on\n+920000</string>
+    <string name="post_code">Post Code</string>
+    <string name="distric">Distric</string>
+    <string name="province">Province</string>
+    <string name="city">City</string>
+    <string name="address_2">Address 2</string>
+    <string name="address_1">Address 1</string>
+    <string name="continues_shopping">Continues Shopping</string>
+    <string name="save">Save</string>
+    <string name="address_book">Address Book</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

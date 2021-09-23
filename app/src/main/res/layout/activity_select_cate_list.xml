@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".select_cate_list">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        >
+
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/ic_bogback" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="270dp"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@drawable/ic_icon_awesome_search" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="85dp"
+        android:orientation="horizontal"
+        android:background="@drawable/botton_line"
+        >
+
+        <TextView
+            android:id="@+id/selectItemGeadTv"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="All"
+            android:fontFamily="@font/poppins_semibold"
+            android:textColor="@color/blurwhite"
+            android:textSize="22sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:textColor="@color/blurwhite"
+            android:text="."
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/subCateNAme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clothes"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="22sp"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/select_cate_list"
+        android:layout_width="376dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+
+
+        />
+
+</RelativeLayout>
